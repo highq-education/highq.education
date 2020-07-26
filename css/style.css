@@ -216,7 +216,7 @@ section {
     padding: 20px;
 }
 
-#clients .col-2-3 [class*='col-'] {
+#youtube .col-2-3 [class*='col-'] {
     padding: 0;
 }
 
@@ -974,26 +974,26 @@ blockquote {
 
 /* --------- 6.4 Gallery ---------- */
 
-#gallery img {
+#highlights img {
     max-height: 300px;
 }
 
-#gallery [class*='col-'] {
+#highlights [class*='col-'] {
     padding: 0;
 }
 
-#gallery a {
+#highlights a {
     display: inline-block;
     position: relative;
     overflow: hidden;
 }
 
-#gallery a:hover img {
+#highlights a:hover img {
     opacity: 0.15;
     -moz-backface-visibility: hidden;
 }
 
-#gallery a:before {
+#highlights a:before {
     font-size: 2.2em;
     font-style: normal;
     font-weight: normal;
@@ -1015,7 +1015,7 @@ blockquote {
     vertical-align: middle;
 }
 
-#gallery a:hover:before {
+#highlights a:hover:before {
     opacity: 1;
     top: 50%;
     left: 50%;
@@ -1379,16 +1379,15 @@ blockquote {
 
 /* --------- 6.6 Clients ---------- */
 
-#clients a {
+#youtube a {
     display: block;
     text-align: center;
     position: relative;
     text-transform: uppercase;
     font-weight: bold;
-    color: #fff;
 }
 
-#clients img {
+#youtube img {
     display: inline-block;
     padding: 15px 25px;
 }
@@ -1410,7 +1409,7 @@ blockquote {
     transition: all 0.3s ease-out;
 }
 
-#clients a:hover .client-overlay {
+#youtube a:hover .client-overlay {
     opacity: 1;
 }
 
